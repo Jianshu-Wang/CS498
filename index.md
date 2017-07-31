@@ -1,5 +1,4 @@
-
-<html>
+<!-- <html>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <head></head>
@@ -159,7 +158,7 @@ var map_spec =
 }
 </script>
 
-</body>
+</body> -->
 <!DOCTYPE html>
 <meta charset="utf-8">
 <style>
