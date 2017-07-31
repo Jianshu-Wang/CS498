@@ -1,5 +1,13 @@
 <title>Life Satisfaction Research of all Countries</title>
 <p>This is a narrative visualization of the life satisfaction of people all around the world, I use the drill down story method to show the data for my map</p>
+<p>What is the relatioship between life satisfaction and gdp?
+From this workbook we can explore the relationship between life satisfaction and gdp. the first sheet overview shows a increasing life satisfaction map on a increasing gdp per capita. but we still need to pay attention on the the second sheet which shows life satisfaction is not always raising with gdp per capita. In order to make it clear, we can pick some samples in the 3rd sheet. I draw my conclustion that, gdp per capita can have a very important effect on life satisfaction, but life satisfaction can depend on many other issues, and situation can be vary in each country.
+As we can see there are three charts in the workbook, the dashboard shows a overview and details of the life satisfaction investigation data of the world in the past 30 years. 
+The first sheet uses the averge gdp per capita as the horizontal axis and values are logarithmically map on the axis,  the mean values of the life satisfaction are shown on the vertical axis from 3 - 8, I use discrete circles to represent each country and by this method I can show the general overview of situation of all the recorded countries.
+The second sheet shows the avg GDP per capita actually is raising from 1988 to 2018, and the color palette is used to show the average life satisfaction of all the country over time, from this effective color palette we can see that there is a sharp decrease of life satisfaction in 2005 even though gdp per capita is still raising.
+The third chart shows the data details, in this sheet you can check the life satisfaction and gdp per capita over time in each country, discrete  bars are used to represent the values in the corresponding category.
+I think in these 3 charts, the dashboard can a very general overview of the data, we can gain gain all the knowledge that we want to know from different sight.
+</p>
 {
   "$schema": "https://vega.github.io/schema/vega/v3.0.json",
   "width": 900,
