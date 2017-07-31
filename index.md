@@ -163,8 +163,15 @@ var map_spec =
 <html>
 <head>
 	<title>D3 tutorial</title>
+	<script type="text/javascript" src="http://d3js.org/d3.v3.min.js">
+	</script>
 </head>
 <body>
+	<p>This is a paragraph!</p>
+	<script>
+	d3.select("p");
+		
+	</script>
 
 </body>
 </html>
