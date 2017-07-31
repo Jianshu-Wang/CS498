@@ -8,84 +8,107 @@ The second sheet shows the avg GDP per capita actually is raising from 1988 to 2
 The third chart shows the data details, in this sheet you can check the life satisfaction and gdp per capita over time in each country, discrete  bars are used to represent the values in the corresponding category.
 I think in these 3 charts, the dashboard can a very general overview of the data, we can gain gain all the knowledge that we want to know from different sight.
 </p>
+
+<!DOCTYPE html>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+<html>
+
+<body>
+
+    <div id="decoy-svg-container">
+    <svg id="decoy_viz" width="0" height="0"></svg>
+    </div>
+
+    <div id="svg-container">
+    <svg id="viz" width="720" height="405"></svg>
+    </div>
+
+
+
+<script>
+
 {
   "$schema": "https://vega.github.io/schema/vega/v3.0.json",
   "width": 900,
   "height": 500,
   "autosize": "none",
 
-  "encode": {
-    "update": {
-      "fill": {"signal": "background"}
-    }
-  },
-
   "signals": [
+    { "name": "tx", "update": "width / 2" },
+    { "name": "ty", "update": "height / 2" },
     {
-      "name": "type",
-      "value": "mercator",
-      "bind": {
-        "input": "select",
-        "options": [
-          "albers",
-          "albersUsa",
-          "azimuthalEqualArea",
-          "azimuthalEquidistant",
-          "conicConformal",
-          "conicEqualArea",
-          "conicEquidistant",
-          "equirectangular",
-          "gnomonic",
-          "mercator",
-          "orthographic",
-          "stereographic",
-          "transverseMercator"
-        ]
-      }
+      "name": "scale",
+      "value": 150,
+      "on": [{
+        "events": {"type": "wheel", "consume": true},
+        "update": "clamp(scale * pow(1.0005, -event.deltaY * pow(16, event.deltaMode)), 150, 3000)"
+      }]
     },
-    { "name": "scale", "value": 150,
-      "bind": {"input": "range", "min": 50, "max": 2000, "step": 1} },
-    { "name": "rotate0", "value": 0,
-      "bind": {"input": "range", "min": -180, "max": 180, "step": 1} },
-    { "name": "rotate1", "value": 0,
-      "bind": {"input": "range", "min": -90, "max": 90, "step": 1} },
-    { "name": "rotate2", "value": 0,
-      "bind": {"input": "range", "min": -180, "max": 180, "step": 1} },
-    { "name": "center0", "value": 0,
-      "bind": {"input": "range", "min": -180, "max": 180, "step": 1} },
-    { "name": "center1", "value": 0,
-      "bind": {"input": "range", "min": -90, "max": 90, "step": 1} },
-    { "name": "translate0", "update": "width / 2" },
-    { "name": "translate1", "update": "height / 2" },
-
-    { "name": "graticuleDash", "value": 0,
-      "bind": {"input": "radio", "options": [0, 3, 5, 10]} },
-    { "name": "borderWidth", "value": 1,
-      "bind": {"input": "text"} },
-    { "name": "background", "value": "#ffffff",
-      "bind": {"input": "color"} },
-    { "name": "invert", "value": false,
-      "bind": {"input": "checkbox"} }
+    {
+      "name": "angles",
+      "value": [0, 0],
+      "on": [{
+        "events": "mousedown",
+        "update": "[rotateX, centerY]"
+      }]
+    },
+    {
+      "name": "cloned",
+      "value": null,
+      "on": [{
+        "events": "mousedown",
+        "update": "copy('projection')"
+      }]
+    },
+    {
+      "name": "start",
+      "value": null,
+      "on": [{
+        "events": "mousedown",
+        "update": "invert(cloned, xy())"
+      }]
+    },
+    {
+      "name": "drag", "value": null,
+      "on": [{
+        "events": "[mousedown, window:mouseup] > window:mousemove",
+        "update": "invert(cloned, xy())"
+      }]
+    },
+    {
+      "name": "delta", "value": null,
+      "on": [{
+        "events": {"signal": "drag"},
+        "update": "[drag[0] - start[0], start[1] - drag[1]]"
+      }]
+    },
+    {
+      "name": "rotateX", "value": 0,
+      "on": [{
+        "events": {"signal": "delta"},
+        "update": "angles[0] + delta[0]"
+      }]
+    },
+    {
+      "name": "centerY", "value": 0,
+      "on": [{
+        "events": {"signal": "delta"},
+        "update": "clamp(angles[1] + delta[1], -60, 60)"
+      }]
+    }
   ],
 
   "projections": [
     {
       "name": "projection",
-      "type": {"signal": "type"},
+      "type": "mercator",
       "scale": {"signal": "scale"},
-      "rotate": [
-        {"signal": "rotate0"},
-        {"signal": "rotate1"},
-        {"signal": "rotate2"}
-      ],
-      "center": [
-        {"signal": "center0"},
-        {"signal": "center1"}
-      ],
-      "translate": [
-        {"signal": "translate0"},
-        {"signal": "translate1"}
-      ]
+      "rotate": [{"signal": "rotateX"}, 0, 0],
+      "center": [0, {"signal": "centerY"}],
+      "translate": [{"signal": "tx"}, {"signal": "ty"}]
     }
   ],
 
@@ -101,7 +124,7 @@ I think in these 3 charts, the dashboard can a very general overview of the data
     {
       "name": "graticule",
       "transform": [
-        { "type": "graticule" }
+        { "type": "graticule", "step": [15, 15] }
       ]
     }
   ],
@@ -111,10 +134,9 @@ I think in these 3 charts, the dashboard can a very general overview of the data
       "type": "shape",
       "from": {"data": "graticule"},
       "encode": {
-        "update": {
+        "enter": {
           "strokeWidth": {"value": 1},
-          "strokeDash": {"signal": "[+graticuleDash, +graticuleDash]"},
-          "stroke": {"signal": "invert ? '#444' : '#ddd'"},
+          "stroke": {"value": "#ddd"},
           "fill": {"value": null}
         }
       },
@@ -126,16 +148,10 @@ I think in these 3 charts, the dashboard can a very general overview of the data
       "type": "shape",
       "from": {"data": "world"},
       "encode": {
-        "update": {
-          "strokeWidth": {"signal": "+borderWidth"},
-          "stroke": {"signal": "invert ? '#777' : '#bbb'"},
-          "fill": {"signal": "invert ? '#fff' : '#000'"},
-          "zindex": {"value": 0}
-        },
-        "hover": {
-          "strokeWidth": {"signal": "+borderWidth + 1"},
-          "stroke": {"value": "firebrick"},
-          "zindex": {"value": 1}
+        "enter": {
+          "strokeWidth": {"value": 0.5},
+          "stroke": {"value": "#bbb"},
+          "fill": {"value": "#e5e8d3"}
         }
       },
       "transform": [
@@ -144,3 +160,6 @@ I think in these 3 charts, the dashboard can a very general overview of the data
     }
   ]
 }
+</script>
+
+</body>
