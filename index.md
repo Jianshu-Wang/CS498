@@ -1,176 +1,124 @@
-<!-- <html>
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-<head></head>
-
-<body>
-
-    <div id="decoy-svg-container">
-    <svg id="decoy_viz" width="0" height="0"></svg>
-    </div>
-
-    <div id="svg-container">
-    <svg id="viz" width="720" height="405"></svg>
-    </div>
-
-
-<title>Life Satisfaction Research of all Countries</title>
-<p>This is a narrative visualization of the life satisfaction of people all around the world, I use the drill down story method to show the data for my map</p>
-<p>What is the relatioship between life satisfaction and gdp?
-From this workbook we can explore the relationship between life satisfaction and gdp. the first sheet overview shows a increasing life satisfaction map on a increasing gdp per capita. but we still need to pay attention on the the second sheet which shows life satisfaction is not always raising with gdp per capita. In order to make it clear, we can pick some samples in the 3rd sheet. I draw my conclustion that, gdp per capita can have a very important effect on life satisfaction, but life satisfaction can depend on many other issues, and situation can be vary in each country.
-As we can see there are three charts in the workbook, the dashboard shows a overview and details of the life satisfaction investigation data of the world in the past 30 years. 
-The first sheet uses the averge gdp per capita as the horizontal axis and values are logarithmically map on the axis,  the mean values of the life satisfaction are shown on the vertical axis from 3 - 8, I use discrete circles to represent each country and by this method I can show the general overview of situation of all the recorded countries.
-The second sheet shows the avg GDP per capita actually is raising from 1988 to 2018, and the color palette is used to show the average life satisfaction of all the country over time, from this effective color palette we can see that there is a sharp decrease of life satisfaction in 2005 even though gdp per capita is still raising.
-The third chart shows the data details, in this sheet you can check the life satisfaction and gdp per capita over time in each country, discrete  bars are used to represent the values in the corresponding category.
-I think in these 3 charts, the dashboard can a very general overview of the data, we can gain gain all the knowledge that we want to know from different sight.
-</p><
-<script>
-var map_spec = 
-{
-  "$schema": "https://vega.github.io/schema/vega/v3.0.json",
-  "width": 900,
-  "height": 500,
-  "autosize": "none",
-
-  "signals": [
-    { "name": "tx", "update": "width / 2" },
-    { "name": "ty", "update": "height / 2" },
-    {
-      "name": "scale",
-      "value": 150,
-      "on": [{
-        "events": {"type": "wheel", "consume": true},
-        "update": "clamp(scale * pow(1.0005, -event.deltaY * pow(16, event.deltaMode)), 150, 3000)"
-      }]
-    },
-    {
-      "name": "angles",
-      "value": [0, 0],
-      "on": [{
-        "events": "mousedown",
-        "update": "[rotateX, centerY]"
-      }]
-    },
-    {
-      "name": "cloned",
-      "value": null,
-      "on": [{
-        "events": "mousedown",
-        "update": "copy('projection')"
-      }]
-    },
-    {
-      "name": "start",
-      "value": null,
-      "on": [{
-        "events": "mousedown",
-        "update": "invert(cloned, xy())"
-      }]
-    },
-    {
-      "name": "drag", "value": null,
-      "on": [{
-        "events": "[mousedown, window:mouseup] > window:mousemove",
-        "update": "invert(cloned, xy())"
-      }]
-    },
-    {
-      "name": "delta", "value": null,
-      "on": [{
-        "events": {"signal": "drag"},
-        "update": "[drag[0] - start[0], start[1] - drag[1]]"
-      }]
-    },
-    {
-      "name": "rotateX", "value": 0,
-      "on": [{
-        "events": {"signal": "delta"},
-        "update": "angles[0] + delta[0]"
-      }]
-    },
-    {
-      "name": "centerY", "value": 0,
-      "on": [{
-        "events": {"signal": "delta"},
-        "update": "clamp(angles[1] + delta[1], -60, 60)"
-      }]
-    }
-  ],
-
-  "projections": [
-    {
-      "name": "projection",
-      "type": "mercator",
-      "scale": {"signal": "scale"},
-      "rotate": [{"signal": "rotateX"}, 0, 0],
-      "center": [0, {"signal": "centerY"}],
-      "translate": [{"signal": "tx"}, {"signal": "ty"}]
-    }
-  ],
-
-  "data": [
-    {
-      "name": "world",
-      "url": "data/world-110m.json",
-      "format": {
-        "type": "topojson",
-        "feature": "countries"
-      }
-    },
-    {
-      "name": "graticule",
-      "transform": [
-        { "type": "graticule", "step": [15, 15] }
-      ]
-    }
-  ],
-
-  "marks": [
-    {
-      "type": "shape",
-      "from": {"data": "graticule"},
-      "encode": {
-        "enter": {
-          "strokeWidth": {"value": 1},
-          "stroke": {"value": "#ddd"},
-          "fill": {"value": null}
-        }
-      },
-      "transform": [
-        { "type": "geoshape", "projection": "projection" }
-      ]
-    },
-    {
-      "type": "shape",
-      "from": {"data": "world"},
-      "encode": {
-        "enter": {
-          "strokeWidth": {"value": 0.5},
-          "stroke": {"value": "#bbb"},
-          "fill": {"value": "#e5e8d3"}
-        }
-      },
-      "transform": [
-        { "type": "geoshape", "projection": "projection" }
-      ]
-    }
-  ]
-}
-</script>
-
-</body> -->
 <!DOCTYPE html>
 <html>
 <head>
-	<title>D3 tutorial</title>
-	<script type="text/javascript" src="http://d3js.org/d3.v3.min.js">
+	<title>Happiness Investigation</title>
+	<script src="d3.js">
 	</script>
+	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<style>
+	#tooltip{
+		opacity: 0;
+		position: absolute;
+		text-align: center;
+		width: 210px;
+		height: 110px;
+		background: lightSteelBlue;
+		border: 0px;
+	}
+	</style>
 </head>
 <body>
-	<p>This is a paragraph!</p>
+	<p>This fugure shows the happiness incestigation result all over the world. From the first figure I can see that Oceania and Europe have the highest happiness rate, this figure uses interactive slideshow as the !</p>
+	<svg class="chart"></svg>
+	<div id="tooltip" opacity=0></div>
 	<script>
-	d3.select("p");
-		
+	d3.json("continentRate.json",function(data){
+		var tooltip = d3.select("#tooltip");
+
+		var width = 750;
+		var height = 600;
+		var padding = 100;
+		// var heightScale = d3.scale.linear()
+		// 									.domain([0,10])
+		// 									.range([height - padding, padding]);
+
+		var yScale = d3.scale.linear()
+									.domain([0,10])
+									.range([height - padding, padding]);
+
+		var xScale = d3.scale.linear()
+									.domain([0,10])
+									.range([padding, width - padding]);
+
+		var yAxis = d3.svg.axis()
+							// .ticks(5)
+							.orient("left")
+							.scale(yScale);
+
+		var xAxis = d3.svg.axis()
+							.ticks(1)
+							.orient("bottom")
+							.scale(xScale);
+
+		var canvas = d3.select("body")
+										.append("svg")
+										.attr("width",width)
+										.attr("height",height);
+
+		canvas.append("g")
+					.attr("transform", "translate("+80+",0)")
+        	.attr("class", "axis")
+					.call(yAxis);
+
+		// canvas.append("g")
+		// 				.attr("transform", "translate("+-25+",500)")
+		// 	      .attr("class", "axis")
+		// 				.call(xAxis);
+
+		canvas.selectAll("rect")
+		.data(data)
+		.enter()
+		.append("rect")
+		.attr("height",function(d){return d.rate*40;})
+		.attr("width",70)
+		.attr("x",function(d,i){return i*80;})
+		.attr("y",function(d){return 400-d.rate*40})
+		.attr("fill","steelblue")
+		.attr("transform", "translate("+100+",100)")
+		.on("mouseover",function(d,i){
+		tooltip.style("opacity",1)
+		.style("left",(d3.event.pageX)+"px")
+		.style("top",(d3.event.pageY)+"px")
+		.html("In "+d.continent+" investigation shows a average happiness rate of "+ d.rate +
+	 				", the highest rate and country is "+ d.max+", and the lowest rate and country is "+ d.min);})
+		.on("mouseout",function(d){tooltip.style("opacity",0);})
+
+
+
+		canvas.append("text")
+            .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+            .attr("transform", "translate("+ 50 +","+300+")rotate(-90)")  // text is drawn off the screen top left, move down and out and rotate
+            .text("Average Happiness Rate");
+		canvas.append("text")
+						.attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+						.attr("transform", "translate("+ 130 +","+530+")")  // centre below axis
+						.text("S.America");
+		canvas.append("text")
+						.attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+						.attr("transform", "translate("+ 215 +","+530+")")  // centre below axis
+						.text("N.America");
+		canvas.append("text")
+						.attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+						.attr("transform", "translate("+ 295 +","+530+")")  // centre below axis
+						.text("Asia");
+		canvas.append("text")
+						.attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+						.attr("transform", "translate("+ 375 +","+530+")")  // centre below axis
+						.text("Africa");
+		canvas.append("text")
+						.attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+						.attr("transform", "translate("+ 455 +","+530+")")  // centre below axis
+						.text("Europe");
+		canvas.append("text")
+						.attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+						.attr("transform", "translate("+ 535 +","+530+")")  // centre below axis
+						.text("Oceania");
+		canvas.append("text")
+						.attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+						.attr("transform", "translate("+ 330 +","+70+")")  // centre below axis
+						.text("General happiness rate information in each continent");
+	})
+
 	</script>
 
 </body>

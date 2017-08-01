@@ -1,0 +1,38 @@
+[
+ {
+   "continent": "South America",
+   "rate": "6.1",
+   "max": "6.571 Chile",
+   "min": "4.041 Venezuela"
+ },
+ {
+   "continent": "North America",
+   "rate": "6.81",
+   "max": "7.245 Canada",
+   "min": "5.648 Honduras"
+ },
+ {
+   "continent": "Asia",
+   "rate": "5.21",
+   "max": "6.074 Thailand",
+   "min": "4.179 India"
+ },
+ {
+   "continent": "Africa",
+   "rate": "4.41",
+   "max": "5.434 Algeria",
+   "min": "2.693 Central African Republic"
+ },
+ {
+   "continent": "Europe",
+   "rate": "7.01",
+   "max": "7.660 Finland",
+   "min": "5.447 Portugal"
+ },
+ {
+   "continent": "Oceania",
+   "rate": "7.24",
+   "max": "7.250 Australia",
+   "min": "7.226 New Zealand"
+ }
+]
