@@ -1,38 +1,44 @@
 [
+  {
+    "continent": "Africa",
+    "rate": "4.05",
+    "max": "6.355 Algeria",
+    "min": "2.839 Togo",
+    "number": "36"
+  },
  {
    "continent": "South America",
-   "rate": "6.1",
-   "max": "6.571 Chile",
-   "min": "4.041 Venezuela"
+   "rate": "6.24",
+   "max": "6.98 Brazil",
+   "min": "4.041 Venezuela",
+   "number": "10"
  },
  {
    "continent": "North America",
-   "rate": "6.81",
-   "max": "7.245 Canada",
-   "min": "5.648 Honduras"
+   "rate": "5.63",
+   "max": "7.304 Canada",
+   "min": "3.888 Haiti",
+   "number": "13"
  },
  {
    "continent": "Asia",
-   "rate": "5.21",
-   "max": "6.074 Thailand",
-   "min": "4.179 India"
- },
- {
-   "continent": "Africa",
-   "rate": "4.41",
-   "max": "5.434 Algeria",
-   "min": "2.693 Central African Republic"
+   "rate": "5.38",
+   "max": "7.4 Isreal",
+   "min": "3.13 Afghanistan",
+   "number": "39"
  },
  {
    "continent": "Europe",
-   "rate": "7.01",
-   "max": "7.660 Finland",
-   "min": "5.447 Portugal"
+   "rate": "6.03",
+   "max": "7.51 Danmark",
+   "min": "4.295 Ukraine",
+   "number": "39"
  },
  {
    "continent": "Oceania",
-   "rate": "7.24",
-   "max": "7.250 Australia",
-   "min": "7.226 New Zealand"
+   "rate": "7.3",
+   "max": "7.306 New Zealand",
+   "min": "7.288 Australia",
+   "number": "2"
  }
 ]

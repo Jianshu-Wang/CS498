@@ -1,0 +1,1254 @@
+[
+ {
+   "FIELD1": "Afghanistan",
+   "FIELD2": 2014,
+   "FIELD3": "AFG",
+   "FIELD4": 1844.021503,
+   "FIELD5": 3.130895615,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Albania",
+   "FIELD2": 2014,
+   "FIELD3": "ALB",
+   "FIELD4": 10136.02049,
+   "FIELD5": 4.813763142,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Algeria",
+   "FIELD2": 2014,
+   "FIELD3": "DZA",
+   "FIELD4": 13540.79671,
+   "FIELD5": 6.354898453,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Angola",
+   "FIELD2": 2014,
+   "FIELD3": "AGO",
+   "FIELD4": 4000,
+   "FIELD5": 3.794837952,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Argentina",
+   "FIELD2": 2014,
+   "FIELD3": "ARG",
+   "FIELD4": 13540.79671,
+   "FIELD5": 6.671114445,
+   "Area": "South America",
+   "color": "gold"
+ },
+ {
+   "FIELD1": "Armenia",
+   "FIELD2": 2014,
+   "FIELD3": "ARM",
+   "FIELD4": 7698.694581,
+   "FIELD5": 4.453083038,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Australia",
+   "FIELD2": 2014,
+   "FIELD3": "AUS",
+   "FIELD4": 43218.51526,
+   "FIELD5": 7.288550377,
+   "Area": "Oceania",
+   "color": "limegreen"
+ },
+ {
+   "FIELD1": "Austria",
+   "FIELD2": 2014,
+   "FIELD3": "AUT",
+   "FIELD4": 43908.12714,
+   "FIELD5": 6.949999809,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Azerbaijan",
+   "FIELD2": 2014,
+   "FIELD3": "AZE",
+   "FIELD4": 16710.29664,
+   "FIELD5": 5.25153017,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Bahrain",
+   "FIELD2": 2014,
+   "FIELD3": "BHR",
+   "FIELD4": 43408.23705,
+   "FIELD5": 6.165133953,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Bangladesh",
+   "FIELD2": 2014,
+   "FIELD3": "BGD",
+   "FIELD4": 2979.16727,
+   "FIELD5": 4.635564804,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Belarus",
+   "FIELD2": 2014,
+   "FIELD3": "BLR",
+   "FIELD4": 17348.76639,
+   "FIELD5": 5.812400818,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Belgium",
+   "FIELD2": 2014,
+   "FIELD3": "BEL",
+   "FIELD4": 40823.39248,
+   "FIELD5": 6.855329037,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Belize",
+   "FIELD2": 2014,
+   "FIELD3": "BLZ",
+   "FIELD4": 8029.833508,
+   "FIELD5": 5.955646515,
+   "Area": "North America",
+   "color": "Orangered"
+ },
+ {
+   "FIELD1": "Benin",
+   "FIELD2": 2014,
+   "FIELD3": "BEN",
+   "FIELD4": 1936.825582,
+   "FIELD5": 3.347419262,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Bhutan",
+   "FIELD2": 2014,
+   "FIELD3": "BTN",
+   "FIELD4": 7456.315988,
+   "FIELD5": 4.938578129,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Bolivia",
+   "FIELD2": 2014,
+   "FIELD3": "BOL",
+   "FIELD4": 6324.990141,
+   "FIELD5": 5.864798546,
+   "Area": "South America",
+   "color": "gold"
+ },
+ {
+   "FIELD1": "Bosnia and Herzegovina",
+   "FIELD2": 2014,
+   "FIELD3": "BIH",
+   "FIELD4": 9490.143489,
+   "FIELD5": 5.248954296,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Botswana",
+   "FIELD2": 2014,
+   "FIELD3": "BWA",
+   "FIELD4": 15359.06317,
+   "FIELD5": 4.031197071,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Brazil",
+   "FIELD2": 2014,
+   "FIELD3": "BRA",
+   "FIELD4": 15109.82555,
+   "FIELD5": 6.980998993,
+   "Area": "South America",
+   "color": "gold"
+ },
+ {
+   "FIELD1": "Bulgaria",
+   "FIELD2": 2014,
+   "FIELD3": "BGR",
+   "FIELD4": 16363.19176,
+   "FIELD5": 4.438439846,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Burkina Faso",
+   "FIELD2": 2014,
+   "FIELD3": "BFA",
+   "FIELD4": 1545.077556,
+   "FIELD5": 3.481347799,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Burundi",
+   "FIELD2": 2014,
+   "FIELD3": "BDI",
+   "FIELD4": 734.4845955,
+   "FIELD5": 2.904535055,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Cambodia",
+   "FIELD2": 2014,
+   "FIELD3": "KHM",
+   "FIELD4": 3112.630513,
+   "FIELD5": 3.88330555,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Cameroon",
+   "FIELD2": 2014,
+   "FIELD3": "CMR",
+   "FIELD4": 2835.566677,
+   "FIELD5": 4.240441322,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Canada",
+   "FIELD2": 2014,
+   "FIELD3": "CAN",
+   "FIELD4": 42777.89898,
+   "FIELD5": 7.30425787,
+   "Area": "North America",
+   "color": "Orangered"
+ },
+ {
+   "FIELD1": "Chad",
+   "FIELD2": 2014,
+   "FIELD3": "TCD",
+   "FIELD4": 2081.718396,
+   "FIELD5": 3.460182905,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Chile",
+   "FIELD2": 2014,
+   "FIELD3": "CHL",
+   "FIELD4": 21979.82132,
+   "FIELD5": 6.844238281,
+   "Area": "South America",
+   "color": "gold"
+ },
+ {
+   "FIELD1": "China",
+   "FIELD2": 2014,
+   "FIELD3": "CHN",
+   "FIELD4": 12599.18183,
+   "FIELD5": 5.195619106,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Colombia",
+   "FIELD2": 2014,
+   "FIELD3": "COL",
+   "FIELD4": 12743.01602,
+   "FIELD5": 6.44878912,
+   "Area": "South America",
+   "color": "gold"
+ },
+ {
+   "FIELD1": "Congo",
+   "FIELD2": 2014,
+   "FIELD3": "COG",
+   "FIELD4": 5988.158823,
+   "FIELD5": 4.05601263,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Costa Rica",
+   "FIELD2": 2014,
+   "FIELD3": "CRI",
+   "FIELD4": 14232.17543,
+   "FIELD5": 7.247086048,
+   "Area": "North America",
+   "color": "Orangered"
+ },
+ {
+   "FIELD1": "Cote d'Ivoire",
+   "FIELD2": 2014,
+   "FIELD3": "CIV",
+   "FIELD4": 3108.425908,
+   "FIELD5": 3.570368528,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Croatia",
+   "FIELD2": 2014,
+   "FIELD3": "HRV",
+   "FIELD4": 20033.08754,
+   "FIELD5": 5.380692482,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Cyprus",
+   "FIELD2": 2014,
+   "FIELD3": "CYP",
+   "FIELD4": 29673.18385,
+   "FIELD5": 5.627123833,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Czech Republic",
+   "FIELD2": 2014,
+   "FIELD3": "CZE",
+   "FIELD4": 28715.13873,
+   "FIELD5": 6.483729839,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Democratic Republic of Congo",
+   "FIELD2": 2014,
+   "FIELD3": "COD",
+   "FIELD4": 711.5201297,
+   "FIELD5": 4.414299965,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Denmark",
+   "FIELD2": 2014,
+   "FIELD3": "DNK",
+   "FIELD4": 42757.54325,
+   "FIELD5": 7.507559299,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Dominican Republic",
+   "FIELD2": 2014,
+   "FIELD3": "DOM",
+   "FIELD4": 12652.5233,
+   "FIELD5": 5.387331963,
+   "Area": "North America",
+   "color": "Orangered"
+ },
+ {
+   "FIELD1": "Ecuador",
+   "FIELD2": 2014,
+   "FIELD3": "ECU",
+   "FIELD4": 10848.81847,
+   "FIELD5": 5.945851803,
+   "Area": "South America",
+   "color": "gold"
+ },
+ {
+   "FIELD1": "Egypt",
+   "FIELD2": 2014,
+   "FIELD3": "EGY",
+   "FIELD4": 10045.77995,
+   "FIELD5": 4.885072708,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "El Salvador",
+   "FIELD2": 2014,
+   "FIELD3": "SLV",
+   "FIELD4": 7967.149952,
+   "FIELD5": 5.856523514,
+   "Area": "North America",
+   "color": "Orangered"
+ },
+ {
+   "FIELD1": "Estonia",
+   "FIELD2": 2014,
+   "FIELD3": "EST",
+   "FIELD4": 26611.72977,
+   "FIELD5": 5.55598259,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Ethiopia",
+   "FIELD2": 2014,
+   "FIELD3": "ETH",
+   "FIELD4": 1430.803443,
+   "FIELD5": 4.506646633,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Finland",
+   "FIELD2": 2014,
+   "FIELD3": "FIN",
+   "FIELD4": 38534.98821,
+   "FIELD5": 7.384571075,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "France",
+   "FIELD2": 2014,
+   "FIELD3": "FRA",
+   "FIELD4": 37214.40686,
+   "FIELD5": 6.466867924,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Gabon",
+   "FIELD2": 2014,
+   "FIELD3": "GAB",
+   "FIELD4": 18536.76837,
+   "FIELD5": 3.918073177,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Georgia",
+   "FIELD2": 2014,
+   "FIELD3": "GEO",
+   "FIELD4": 7233.37689,
+   "FIELD5": 4.287508011,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Germany",
+   "FIELD2": 2014,
+   "FIELD3": "DEU",
+   "FIELD4": 43602.35925,
+   "FIELD5": 6.984214306,
+   "Area": "Europe",
+   "color": "steelblue"
+
+ },
+ {
+   "FIELD1": "Ghana",
+   "FIELD2": 2014,
+   "FIELD3": "GHA",
+   "FIELD4": 3894.004399,
+   "FIELD5": 3.860351086,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Greece",
+   "FIELD2": 2014,
+   "FIELD3": "GRC",
+   "FIELD4": 24372.42214,
+   "FIELD5": 4.75623703,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Guatemala",
+   "FIELD2": 2014,
+   "FIELD3": "GTM",
+   "FIELD4": 7111.550259,
+   "FIELD5": 6.536030769,
+   "Area": "North America",
+   "color": "Orangered"
+ },
+ {
+   "FIELD1": "Guinea",
+   "FIELD2": 2014,
+   "FIELD3": "GIN",
+   "FIELD4": 1165.12982,
+   "FIELD5": 3.4124825,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Haiti",
+   "FIELD2": 2014,
+   "FIELD3": "HTI",
+   "FIELD4": 1652.173694,
+   "FIELD5": 3.888778448,
+   "Area": "North America",
+   "color": "Orangered"
+ },
+ {
+   "FIELD1": "Honduras",
+   "FIELD2": 2014,
+   "FIELD3": "HND",
+   "FIELD4": 4682.99035,
+   "FIELD5": 5.055726051,
+   "Area": "North America",
+   "color": "Orangered"
+ },
+ {
+   "FIELD1": "Hong Kong",
+   "FIELD2": 2014,
+   "FIELD3": "HKG",
+   "FIELD4": 52551.601,
+   "FIELD5": 5.458050728,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Hungary",
+   "FIELD2": 2014,
+   "FIELD3": "HUN",
+   "FIELD4": 23734.78551,
+   "FIELD5": 5.18056345,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "India",
+   "FIELD2": 2014,
+   "FIELD3": "IND",
+   "FIELD4": 5438.616195,
+   "FIELD5": 4.424379349,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Indonesia",
+   "FIELD2": 2014,
+   "FIELD3": "IDN",
+   "FIELD4": 10033.48179,
+   "FIELD5": 5.597375393,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Iran",
+   "FIELD2": 2014,
+   "FIELD3": "IRN",
+   "FIELD4": 16507.02425,
+   "FIELD5": 4.682224274,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Iraq",
+   "FIELD2": 2014,
+   "FIELD3": "IRQ",
+   "FIELD4": 14364.83649,
+   "FIELD5": 4.541502476,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Ireland",
+   "FIELD2": 2014,
+   "FIELD3": "IRL",
+   "FIELD4": 48430.92559,
+   "FIELD5": 7.018379211,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Israel",
+   "FIELD2": 2014,
+   "FIELD3": "ISR",
+   "FIELD4": 31484.6333,
+   "FIELD5": 7.400570393,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Italy",
+   "FIELD2": 2014,
+   "FIELD3": "ITA",
+   "FIELD4": 33038.91175,
+   "FIELD5": 6.026585102,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Jamaica",
+   "FIELD2": 2014,
+   "FIELD3": "JAM",
+   "FIELD4": 8467.386034,
+   "FIELD5": 5.310538769,
+   "Area": "North America",
+   "color": "Orangered"
+ },
+ {
+   "FIELD1": "Japan",
+   "FIELD2": 2014,
+   "FIELD3": "JPN",
+   "FIELD4": 35634.97072,
+   "FIELD5": 5.922620773,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Jordan",
+   "FIELD2": 2014,
+   "FIELD3": "JOR",
+   "FIELD4": 11496.26493,
+   "FIELD5": 5.333021641,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Kazakhstan",
+   "FIELD2": 2014,
+   "FIELD3": "KAZ",
+   "FIELD4": 23113.93318,
+   "FIELD5": 5.970097542,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Kenya",
+   "FIELD2": 2014,
+   "FIELD3": "KEN",
+   "FIELD4": 2818.255144,
+   "FIELD5": 4.904579639,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Kosovo",
+   "FIELD2": 2014,
+   "FIELD3": "OWID_KOS",
+   "FIELD4": 8694.631864,
+   "FIELD5": 5.000375271,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Kuwait",
+   "FIELD2": 2014,
+   "FIELD3": "KWT",
+   "FIELD4": 69877.98654,
+   "FIELD5": 6.180138588,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Kyrgyzstan",
+   "FIELD2": 2014,
+   "FIELD3": "KGZ",
+   "FIELD4": 3169.471608,
+   "FIELD5": 5.252192974,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Latvia",
+   "FIELD2": 2014,
+   "FIELD3": "LVA",
+   "FIELD4": 22076.41849,
+   "FIELD5": 5.729115486,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Lebanon",
+   "FIELD2": 2014,
+   "FIELD3": "LBN",
+   "FIELD4": 16659.32796,
+   "FIELD5": 5.233025551,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Liberia",
+   "FIELD2": 2014,
+   "FIELD3": "LBR",
+   "FIELD4": 802.0499464,
+   "FIELD5": 4.571419239,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Lithuania",
+   "FIELD2": 2014,
+   "FIELD3": "LTU",
+   "FIELD4": 25813.09716,
+   "FIELD5": 6.125723839,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Luxembourg",
+   "FIELD2": 2014,
+   "FIELD3": "LUX",
+   "FIELD4": 91408.36842,
+   "FIELD5": 6.89112711,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Macedonia",
+   "FIELD2": 2014,
+   "FIELD3": "MKD",
+   "FIELD4": 12287.3521,
+   "FIELD5": 5.203825951,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Madagascar",
+   "FIELD2": 2014,
+   "FIELD3": "MDG",
+   "FIELD4": 1373.184562,
+   "FIELD5": 3.675626993,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Malawi",
+   "FIELD2": 2014,
+   "FIELD3": "MWI",
+   "FIELD4": 783.8314745,
+   "FIELD5": 4.563080311,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Malaysia",
+   "FIELD2": 2014,
+   "FIELD3": "MYS",
+   "FIELD4": 24459.77964,
+   "FIELD5": 5.962921619,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Mali",
+   "FIELD2": 2014,
+   "FIELD3": "MLI",
+   "FIELD4": 1525.685201,
+   "FIELD5": 3.974714279,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Mauritania",
+   "FIELD2": 2014,
+   "FIELD3": "MRT",
+   "FIELD4": 3731.902529,
+   "FIELD5": 4.482805252,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Mauritius",
+   "FIELD2": 2014,
+   "FIELD3": "MUS",
+   "FIELD4": 17730.8984,
+   "FIELD5": 5.647779942,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Mexico",
+   "FIELD2": 2014,
+   "FIELD3": "MEX",
+   "FIELD4": 16284.15191,
+   "FIELD5": 6.679831028,
+   "Area": "North America",
+   "color": "Orangered"
+ },
+ {
+   "FIELD1": "Moldova",
+   "FIELD2": 2014,
+   "FIELD3": "MDA",
+   "FIELD4": 4753.548815,
+   "FIELD5": 5.917058468,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Mongolia",
+   "FIELD2": 2014,
+   "FIELD3": "MNG",
+   "FIELD4": 11396.4208,
+   "FIELD5": 4.824834824,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Montenegro",
+   "FIELD2": 2014,
+   "FIELD3": "MNE",
+   "FIELD4": 14534.17858,
+   "FIELD5": 5.282720566,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Namibia",
+   "FIELD2": 2014,
+   "FIELD3": "NAM",
+   "FIELD4": 9497.789209,
+   "FIELD5": 4.573991299,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Nepal",
+   "FIELD2": 2014,
+   "FIELD3": "NPL",
+   "FIELD4": 2265.053018,
+   "FIELD5": 4.975014687,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Netherlands",
+   "FIELD2": 2014,
+   "FIELD3": "NLD",
+   "FIELD4": 45691.39293,
+   "FIELD5": 7.32118845,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "New Zealand",
+   "FIELD2": 2014,
+   "FIELD3": "NZL",
+   "FIELD4": 33846.47079,
+   "FIELD5": 7.305892467,
+   "Area": "Oceania",
+   "color": "limegreen"
+ },
+ {
+   "FIELD1": "Nicaragua",
+   "FIELD2": 2014,
+   "FIELD3": "NIC",
+   "FIELD4": 4692.139506,
+   "FIELD5": 6.275266647,
+   "Area": "North America",
+   "color": "Orangered"
+ },
+ {
+   "FIELD1": "Niger",
+   "FIELD2": 2014,
+   "FIELD3": "NER",
+   "FIELD4": 894.6284162,
+   "FIELD5": 4.180943489,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Norway",
+   "FIELD2": 2014,
+   "FIELD3": "NOR",
+   "FIELD4": 64004.08444,
+   "FIELD5": 7.444470882,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Pakistan",
+   "FIELD2": 2014,
+   "FIELD3": "PAK",
+   "FIELD4": 4590.146529,
+   "FIELD5": 5.435657978,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Palestine",
+   "FIELD2": 2014,
+   "FIELD3": "PSE",
+   "FIELD4": 4301.675005,
+   "FIELD5": 4.721938133,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Panama",
+   "FIELD2": 2014,
+   "FIELD3": "PAN",
+   "FIELD4": 19934.0278,
+   "FIELD5": 6.631171227,
+   "Area": "North America",
+   "color": "Orangered"
+ },
+ {
+   "FIELD1": "Paraguay",
+   "FIELD2": 2014,
+   "FIELD3": "PRY",
+   "FIELD4": 8501.629171,
+   "FIELD5": 5.118641853,
+   "Area": "South America",
+   "color": "gold"
+ },
+ {
+   "FIELD1": "Peru",
+   "FIELD2": 2014,
+   "FIELD3": "PER",
+   "FIELD4": 11437.70538,
+   "FIELD5": 5.865815639,
+   "Area": "South America",
+   "color": "gold"
+ },
+ {
+   "FIELD1": "Philippines",
+   "FIELD2": 2014,
+   "FIELD3": "PHL",
+   "FIELD4": 6648.550529,
+   "FIELD5": 5.312550068,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Poland",
+   "FIELD2": 2014,
+   "FIELD3": "POL",
+   "FIELD4": 23975.8319,
+   "FIELD5": 5.750282288,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Portugal",
+   "FIELD2": 2014,
+   "FIELD3": "PRT",
+   "FIELD4": 26184.09946,
+   "FIELD5": 5.12691164,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Romania",
+   "FIELD2": 2014,
+   "FIELD3": "ROU",
+   "FIELD4": 19098.15424,
+   "FIELD5": 5.726893425,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Russia",
+   "FIELD2": 2014,
+   "FIELD3": "RUS",
+   "FIELD4": 23292.91145,
+   "FIELD5": 6.036976814,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Rwanda",
+   "FIELD2": 2014,
+   "FIELD3": "RWA",
+   "FIELD4": 1584.205133,
+   "FIELD5": 3.595678329,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Saudi Arabia",
+   "FIELD2": 2014,
+   "FIELD3": "SAU",
+   "FIELD4": 49536.98788,
+   "FIELD5": 6.27837801,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Senegal",
+   "FIELD2": 2014,
+   "FIELD3": "SEN",
+   "FIELD4": 2225.833473,
+   "FIELD5": 4.394777298,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Serbia",
+   "FIELD2": 2014,
+   "FIELD3": "SRB",
+   "FIELD4": 12716.89836,
+   "FIELD5": 5.112728596,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Sierra Leone",
+   "FIELD2": 2014,
+   "FIELD3": "SLE",
+   "FIELD4": 1875.721347,
+   "FIELD5": 4.499970436,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Singapore",
+   "FIELD2": 2014,
+   "FIELD3": "SGP",
+   "FIELD4": 78958.09344,
+   "FIELD5": 7.062364578,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Slovakia",
+   "FIELD2": 2014,
+   "FIELD3": "SVK",
+   "FIELD4": 26470.60946,
+   "FIELD5": 6.1388731,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Slovenia",
+   "FIELD2": 2014,
+   "FIELD3": "SVN",
+   "FIELD4": 28153.03225,
+   "FIELD5": 5.678395271,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "South Korea",
+   "FIELD2": 2014,
+   "FIELD3": "KOR",
+   "FIELD4": 33629.4189,
+   "FIELD5": 5.801325321,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "South Sudan",
+   "FIELD2": 2014,
+   "FIELD3": "SSD",
+   "FIELD4": 1926.052152,
+   "FIELD5": 3.831992388,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Spain",
+   "FIELD2": 2014,
+   "FIELD3": "ESP",
+   "FIELD4": 31801.94262,
+   "FIELD5": 6.456477642,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Sri Lanka",
+   "FIELD2": 2014,
+   "FIELD3": "LKA",
+   "FIELD4": 10667.15961,
+   "FIELD5": 4.267932892,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Sudan",
+   "FIELD2": 2014,
+   "FIELD3": "SDN",
+   "FIELD4": 3882.245273,
+   "FIELD5": 4.138672829,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Sweden",
+   "FIELD2": 2014,
+   "FIELD3": "SWE",
+   "FIELD4": 44033.94329,
+   "FIELD5": 7.239147663,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Switzerland",
+   "FIELD2": 2014,
+   "FIELD3": "CHE",
+   "FIELD4": 55260.31832,
+   "FIELD5": 7.492803574,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "Taiwan",
+   "FIELD2": 2014,
+   "FIELD3": "TWN",
+   "FIELD4": 4000,
+   "FIELD5": 6.36349678,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Tajikistan",
+   "FIELD2": 2014,
+   "FIELD3": "TJK",
+   "FIELD4": 2567.037722,
+   "FIELD5": 4.896157742,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Tanzania",
+   "FIELD2": 2014,
+   "FIELD3": "TZA",
+   "FIELD4": 2421.20802,
+   "FIELD5": 3.483278513,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Thailand",
+   "FIELD2": 2014,
+   "FIELD3": "THA",
+   "FIELD4": 15011.60703,
+   "FIELD5": 6.985463619,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Togo",
+   "FIELD2": 2014,
+   "FIELD3": "TGO",
+   "FIELD4": 1363.126595,
+   "FIELD5": 2.83895874,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Tunisia",
+   "FIELD2": 2014,
+   "FIELD3": "TUN",
+   "FIELD4": 10909.84197,
+   "FIELD5": 4.763594627,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Turkey",
+   "FIELD2": 2014,
+   "FIELD3": "TUR",
+   "FIELD4": 18869.00693,
+   "FIELD5": 5.579794407,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Turkmenistan",
+   "FIELD2": 2014,
+   "FIELD3": "TKM",
+   "FIELD4": 14762.14098,
+   "FIELD5": 5.787379265,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Uganda",
+   "FIELD2": 2014,
+   "FIELD3": "UGA",
+   "FIELD4": 1689.436629,
+   "FIELD5": 3.769919157,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Ukraine",
+   "FIELD2": 2014,
+   "FIELD3": "UKR",
+   "FIELD4": 8267.065341,
+   "FIELD5": 4.297329903,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "United Arab Emirates",
+   "FIELD2": 2014,
+   "FIELD3": "ARE",
+   "FIELD4": 64562.62007,
+   "FIELD5": 6.539854527,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "United Kingdom",
+   "FIELD2": 2014,
+   "FIELD3": "GBR",
+   "FIELD4": 38177.9688,
+   "FIELD5": 6.758147717,
+   "Area": "Europe",
+   "color": "steelblue"
+ },
+ {
+   "FIELD1": "United States",
+   "FIELD2": 2014,
+   "FIELD3": "USA",
+   "FIELD4": 52117.74585,
+   "FIELD5": 7.151114464,
+   "Area": "North America",
+   "color": "Orangered"
+ },
+ {
+   "FIELD1": "Uruguay",
+   "FIELD2": 2014,
+   "FIELD3": "URY",
+   "FIELD4": 19924.05088,
+   "FIELD5": 6.561443806,
+   "Area": "South America",
+   "color": "gold"
+ },
+ {
+   "FIELD1": "Uzbekistan",
+   "FIELD2": 2014,
+   "FIELD3": "UZB",
+   "FIELD4": 5316.872673,
+   "FIELD5": 6.049212456,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Venezuela",
+   "FIELD2": 2014,
+   "FIELD3": "VEN",
+   "FIELD4": 16750.89844,
+   "FIELD5": 6.136096478,
+   "Area": "South America",
+   "color": "gold"
+ },
+ {
+   "FIELD1": "Vietnam",
+   "FIELD2": 2014,
+   "FIELD3": "VNM",
+   "FIELD4": 5370.144872,
+   "FIELD5": 5.084923267,
+   "Area": "Asia",
+   "color": "hotpink"
+ },
+ {
+   "FIELD1": "Zambia",
+   "FIELD2": 2014,
+   "FIELD3": "ZMB",
+   "FIELD4": 3724.526564,
+   "FIELD5": 4.345837116,
+   "Area": "Africa",
+   "color": "wheat"
+ },
+ {
+   "FIELD1": "Zimbabwe",
+   "FIELD2": 2014,
+   "FIELD3": "ZWE",
+   "FIELD4": 1709.143995,
+   "FIELD5": 4.184450626,
+   "Area": "Africa",
+   "color": "wheat"
+ }
+]
