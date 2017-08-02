@@ -34,14 +34,13 @@
 		border: 0px;
 	}
 	.section{
-    font-size: 2em;
     text-align: center;
 }
 	</style>
 
 </head>
 <body>
-	<!-- <div id="fullpage">
+	<div id="fullpage">
     <div class="section">
 			<h2>Life Satisfaction Investigation</h2>
 			<p>This fugure shows the happiness investigation result all over the world, I use interactive slide show to show a general data view. Because this is the best way to clarify a good summary of life satisfaction in each country and each area.</p>
@@ -49,14 +48,14 @@
 		</div>
     <div class="section">
 
-
+			<svg id="svg1"></svg>
 
 		</div>
-		<div class="section">Section 3</div>
-</div> -->
-<!-- <script>
+		<div class="section"><svg id="svg2"></svg></div>
+</div>
+<script>
 $('#fullpage').fullpage({
-    sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke'],
+    sectionsColor: ['#f2f2f2', '#7BAABE', 'lightcyan', 'whitesmoke'],
 		navigation: true,
 		afterReader: function(){
 			setInterval(function(){
@@ -64,7 +63,7 @@ $('#fullpage').fullpage({
 			},1500)
 		}
 });
-</script> -->
+</script>
 <svg class="chart"></svg>
 <div id="tooltip" opacity=0></div>
 <div id="tooltip2" opacity=0></div>
@@ -97,8 +96,7 @@ d3.json("continentRate.json",function(data){
 						.orient("bottom")
 						.scale(xScale);
 
-	var canvas = d3.select("body")
-									.append("svg")
+	var canvas = d3.select("#svg1")
 									.attr("width",width)
 									.attr("height",height);
 
@@ -225,8 +223,7 @@ d3.json("happiness.json",function(chart2data){
         return x2Scale.tickFormat(5,d3.format(",d"))(d)
 });
 
-	var chart2canvas = d3.select("body")
-									.append("svg")
+	var chart2canvas = d3.select("#svg2")
 									.attr("width",chart2width)
 									.attr("height",chart2height);
 
@@ -269,6 +266,7 @@ d3.json("happiness.json",function(chart2data){
 					.attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
 					.attr("transform", "translate("+ 360 +","+560+")")  // centre below axis
 					.text("GDP per Capita");
+
 
 });
 
