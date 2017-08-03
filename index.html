@@ -41,18 +41,26 @@
 </head>
 <body>
 	<div id="fullpage">
-    <div class="section" style="font-size:180%">
+    <div class="section" style="font-size:130%">
 			<h2>Life Satisfaction vs. GDP per capita Investigation</h2>
 			<p>This fugure shows the happiness investigation result all over the world, I use interactive slide show to show a general data view. Because this is the best way to clarify a good summary of life satisfaction in each country and each area.</p>
-			<p>Slide 1 shows the general situation in each continent, we can see that Oceania has the highest average score because they have only two countries, and Europe has a realative high average score even though it has 39 countries. The score from data of Africa is obvious lower than other 5 continents. Danmark has the highest score of 7.5 in Europe and it has the highest score in the world.</p>
-			<p>In order to learn more about the data, we continue look at the slide 2 which we can see the relationship between life satisfaction and gdp per capita, from this slide we can move mouse over each circle to know the details about the corresponding country. Difference color are given to different continent respectively, Europe has many high score countries and Africa has many low score countries from the figure, which is also a support to our slide 1. we can observe a clear slope between 2 axis from this figure, which can help us to draw a conclusion, higher gdp per capita is a very important reason to a better life satisfaction.</p>
-		</div>
+			<h4>Scene</h4>
+			<p>We have 2 scenes, one is for the comparation between each continent, another one is for the exploration of relationship between life satisfaction and gdp per capita.</p>
+			<h4>Annotation</h4>
+			<p>Once you move mouse over the item that you want to know, you can see the annotation which includes all the details for corresponding item. In scene 1 you can see the summary of each continent, and in scene 2 you can see the details in each country.</p>
+			<h4>Trigger</h4>
+			<p>Scenes can be switched by clicking triggers, this can help you to check data in other scene very quick.</p>
+			<h4>Parameter</h4>
+			<p>Axises are labeled with parammeter names, the first slide is to compare the rate in each continent, so the continent name and rate axis are needed. The second slide is to show all the details of each country and explore the relationship between life satisfaction and gdp per capita.</p>
+			</div>
     <div class="section">
-
-			<svg id="svg1"></svg>
+			<td><p>Slide 1 shows the general situation in each continent, we can see that Oceania has the highest average score because they have only two countries, and Europe has a realative high average score even though it has 39 countries. The score from data of Africa is obvious lower than other 5 continents. Danmark has the highest score of 7.5 in Europe and it has the highest score in the world.</p></td>
+			<td><svg id="svg1"></svg></td>
 
 		</div>
-		<div class="section"><svg id="svg2"></svg></div>
+		<div class="section">
+			<p>In order to learn more about the data, we continue look at the slide 2 which we can see the relationship between life satisfaction and gdp per capita, from this slide we can move mouse over each circle to know the details about the corresponding country. Difference color are given to different continent respectively, Europe has many high score countries and Africa has many low score countries from the figure, which is also a support to our slide 1. we can observe a clear slope between 2 axis from this figure, which can help us to draw a conclusion, higher gdp per capita is a very important reason to a better life satisfaction.</p>
+			<svg id="svg2"></svg></div>
 </div>
 <script>
 $('#fullpage').fullpage({
