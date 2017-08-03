@@ -70,7 +70,24 @@
 			<td>
 				<h3>Analyze Data in a 2d Plane</h3>
 			<p>In order to learn more about the data, we continue look at the slide 2 which we can see the relationship between life satisfaction and gdp per capita, from this slide we can move mouse over each circle to know the details about the corresponding country. Difference color are given to different continent respectively, Europe has many high score countries and Africa has many low score countries from the figure, which is also a support to our slide 1. we can observe a clear slope between 2 axis from this figure, which can help us to draw a conclusion, higher gdp per capita is a very important reason to a better life satisfaction.</p></td>
-			<td><svg id="svg2"></svg></td>
+			<td><svg id="svg2">
+				<circle cy="350" cx="600" r="10" fill="wheat"></circle>
+				<circle cy="380" cx="600" r="10" fill="gold"></circle>
+				<circle cy="410" cx="600" r="10" fill="steelblue"></circle>
+				<circle cy="440" cx="600" r="10" fill="hotpink"></circle>
+				<circle cy="470" cx="600" r="10" fill="limegreen"></circle>
+				<circle cy="500" cx="600" r="10" fill="orangered"></circle>
+				<text x="620" y="355" font-family="sans-serif" font-size="16px">Africa</text>
+				<text x="620" y="385" font-family="sans-serif" font-size="16px">South America</text>
+				<text x="620" y="415" font-family="sans-serif" font-size="16px">Europe</text>
+				<text x="620" y="445" font-family="sans-serif" font-size="16px">Asia</text>
+				<text x="620" y="475" font-family="sans-serif" font-size="16px">Oceania</text>
+				<text x="620" y="505" font-family="sans-serif" font-size="16px">North America</text>
+
+
+
+			</svg>
+			</td>
 		</tr>
 	</table>
 
@@ -300,6 +317,7 @@ d3.json("happiness.json",function(chart2data){
 
 
 });
+
 
 
 </script>
