@@ -41,10 +41,11 @@
 </head>
 <body>
 	<div id="fullpage">
-    <div class="section">
-			<h2>Life Satisfaction Investigation</h2>
+    <div class="section" style="font-size:180%">
+			<h2>Life Satisfaction vs. GDP per capita Investigation</h2>
 			<p>This fugure shows the happiness investigation result all over the world, I use interactive slide show to show a general data view. Because this is the best way to clarify a good summary of life satisfaction in each country and each area.</p>
-			<p>From the first section we can see the rate summary in each continent, once you move the mouseover the bars, you will get a average rate of all the countries in this continent, and the highest and lowest rate and its corresponding country name. </p>
+			<p>Slide 1 shows the general situation in each continent, we can see that Oceania has the highest average score because they have only two countries, and Europe has a realative high average score even though it has 39 countries. The score from data of Africa is obvious lower than other 5 continents. Danmark has the highest score of 7.5 in Europe and it has the highest score in the world.</p>
+			<p>In order to learn more about the data, we continue look at the slide 2 which we can see the relationship between life satisfaction and gdp per capita, from this slide we can move mouse over each circle to know the details about the corresponding country. Difference color are given to different continent respectively, Europe has many high score countries and Africa has many low score countries from the figure, which is also a support to our slide 1. we can observe a clear slope between 2 axis from this figure, which can help us to draw a conclusion, higher gdp per capita is a very important reason to a better life satisfaction.</p>
 		</div>
     <div class="section">
 
@@ -250,11 +251,15 @@ d3.json("happiness.json",function(chart2data){
 	.attr("fill",function(d){return d.color;})
 	.attr("transform", "translate("+150+",100)")
 	.on("mouseover",function(d,i){
+		d3.select(this)
+            .style('stroke', 'black');
 	tooltip2.style("opacity",1)
 	.style("left",(d3.event.pageX)+"px")
 	.style("top",(d3.event.pageY)+"px")
 	.html(d.FIELD1+"<br/>"+ " Happiness Rate: "+d.FIELD5.toFixed(3)+"<br/>"+"Continent: "+d.Area+"<br/>"+ "Gdp per capita: "+d.FIELD4.toFixed(2));})
-	.on("mouseout",function(d){tooltip2.style("opacity",0);})
+	.on("mouseout",function(d){
+		d3.select(this).style('stroke', 'none');
+	tooltip2.style("opacity",0);})
 	;
 
 
@@ -266,6 +271,10 @@ d3.json("happiness.json",function(chart2data){
 					.attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
 					.attr("transform", "translate("+ 360 +","+560+")")  // centre below axis
 					.text("GDP per Capita");
+	chart2canvas.append("text")
+					.attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+					.attr("transform", "translate("+ 360 +","+110+")")  // centre below axis
+					.text("Relationship between life satisfaction and gdp per capita");
 
 
 });
